@@ -133,7 +133,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "comma",
+            "key_code": "z",
             "modifiers": {
               "mandatory": [
                 "left_option"
@@ -152,7 +152,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "period",
+            "key_code": "x",
             "modifiers": {
               "mandatory": [
                 "left_option"
