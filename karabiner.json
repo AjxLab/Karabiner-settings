@@ -169,7 +169,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "up_arrow",
+                                    "key_code": "return_or_enter",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
@@ -190,7 +190,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "down_arrow",
+                                    "key_code": "right_shift",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
