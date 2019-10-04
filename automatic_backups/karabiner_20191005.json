@@ -528,40 +528,7 @@
                 "delay_milliseconds_before_open_device": 1000
             },
             "selected": true,
-            "simple_modifications": [
-                {
-                    "from": {
-                        "key_code": "hyphen"
-                    },
-                    "to": {
-                        "key_code": "open_bracket"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "equal_sign"
-                    },
-                    "to": {
-                        "key_code": "close_bracket"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "open_bracket"
-                    },
-                    "to": {
-                        "key_code": "hyphen"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "close_bracket"
-                    },
-                    "to": {
-                        "key_code": "equal_sign"
-                    }
-                }
-            ],
+            "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0,
                 "mouse_key_xy_scale": 100
