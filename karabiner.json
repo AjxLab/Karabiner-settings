@@ -274,6 +274,14 @@
                     "simple_modifications": [
                         {
                             "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "return_or_enter"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "caps_lock"
                             },
                             "to": {
@@ -285,7 +293,7 @@
                                 "key_code": "delete_or_backspace"
                             },
                             "to": {
-                                "key_code": "grave_accent_and_tilde"
+                                "key_code": "backslash"
                             }
                         },
                         {
@@ -395,7 +403,7 @@
                                 "key_code": "international3"
                             },
                             "to": {
-                                "key_code": "grave_accent_and_tilde"
+                                "key_code": "backslash"
                             }
                         },
                         {
