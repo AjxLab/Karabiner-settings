@@ -2,7 +2,7 @@
   "title": "Hyphen to Bracket",
   "rules": [
     {
-      "description": "Hyphen to Bracket（- to [）",
+      "description": "Hyphen to Bracket",
       "manipulators": [
         {
           "type": "basic",
