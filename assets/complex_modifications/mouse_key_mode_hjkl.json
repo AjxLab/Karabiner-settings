@@ -1,0 +1,182 @@
+{
+  "title": "Mouse Key Mode",
+  "rules": [
+    {
+      "description": "マウスカーソルをキーボードから操作(hjkl)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": -1536
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "x": -1536
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": 1536
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "x": 1536
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "vertical_wheel": -32
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_shift",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "vertical_wheel": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button1"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "z",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ],
+              "optional": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
