@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="280604fe-4d29-462e-b517-d82c4d1d23be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/complex_modifications/Dvorak.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/complex_modifications/Dvorak.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/complex_modifications/hyphen_to_bracket.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/complex_modifications/hyphen_to_bracket.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/karabiner.json" beforeDir="false" afterPath="$PROJECT_DIR$/karabiner.json" afterDir="false" />
-    </list>
+    <list default="true" id="280604fe-4d29-462e-b517-d82c4d1d23be" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/complex_modifications/Dvorak.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="2464">
               <caret line="434" column="28" selection-start-line="434" selection-start-column="28" selection-end-line="434" selection-end-column="28" />
             </state>
           </provider>
@@ -121,25 +117,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571103843522</updated>
-      <workItem from="1571103845889" duration="2214000" />
+      <workItem from="1571103845889" duration="2486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2214000" />
+    <option name="totallyTimeSpent" value="2486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -178,7 +173,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/complex_modifications/Dvorak.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="2464">
           <caret line="434" column="28" selection-start-line="434" selection-start-column="28" selection-end-line="434" selection-end-column="28" />
         </state>
       </provider>
