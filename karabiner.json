@@ -258,11 +258,188 @@
                         ]
                     },
                     {
-                        "description": "マウスカーソルをキーボードから操作(htcn)",
+                        "description": "マウスカーソルをキーボードから操作",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "up_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "y": -1536
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "left_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "x": -1536
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "down_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "y": 1536
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "right_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "x": 1536
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "vertical_wheel": -32
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "right_shift",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "vertical_wheel": 32
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "pointing_button": "button1"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "pointing_button": "button2"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "マウスカーソルをキーボードから操作(htkn)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "v",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_option"
@@ -757,7 +934,56 @@
                 "delay_milliseconds_before_open_device": 1000
             },
             "selected": true,
-            "simple_modifications": [],
+            "simple_modifications": [
+                {
+                    "from": {
+                        "key_code": "i"
+                    },
+                    "to": {
+                        "key_code": "v"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "v"
+                    },
+                    "to": {
+                        "key_code": "i"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "r"
+                    },
+                    "to": {
+                        "key_code": "comma"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "t"
+                    },
+                    "to": {
+                        "key_code": "period"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "comma"
+                    },
+                    "to": {
+                        "key_code": "t"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "period"
+                    },
+                    "to": {
+                        "key_code": "r"
+                    }
+                }
+            ],
             "virtual_hid_keyboard": {
                 "country_code": 45,
                 "mouse_key_xy_scale": 100
