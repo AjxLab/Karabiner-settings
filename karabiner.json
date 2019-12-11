@@ -610,6 +610,107 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "My Dvorak Costom",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "i"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "comma"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "t",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "period"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "comma",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "t"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "period",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "r"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
@@ -934,56 +1035,7 @@
                 "delay_milliseconds_before_open_device": 1000
             },
             "selected": true,
-            "simple_modifications": [
-                {
-                    "from": {
-                        "key_code": "i"
-                    },
-                    "to": {
-                        "key_code": "v"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "v"
-                    },
-                    "to": {
-                        "key_code": "i"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "r"
-                    },
-                    "to": {
-                        "key_code": "comma"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "t"
-                    },
-                    "to": {
-                        "key_code": "period"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "comma"
-                    },
-                    "to": {
-                        "key_code": "t"
-                    }
-                },
-                {
-                    "from": {
-                        "key_code": "period"
-                    },
-                    "to": {
-                        "key_code": "r"
-                    }
-                }
-            ],
+            "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 45,
                 "mouse_key_xy_scale": 100
