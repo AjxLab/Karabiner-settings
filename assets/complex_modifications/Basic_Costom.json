@@ -7,22 +7,6 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "backslash",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "return_or_enter"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
             "key_code": "caps_lock",
             "modifiers": {
               "optional": [
@@ -48,7 +32,27 @@
           },
           "to": [
             {
-              "key_code": "backslash"
+              "mouse_key": {
+                "horizontal_wheel": -32
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "international3",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "horizontal_wheel": 32
+              }
             }
           ]
         },
@@ -65,22 +69,6 @@
           "to": [
             {
               "key_code": "right_shift"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "international3",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "backslash"
             }
           ]
         },
@@ -128,7 +116,39 @@
           },
           "to": [
             {
-              "key_code": "delete_or_backspace"
+              "key_code": "tab"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "tab",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "grave_accent_and_tilde"
             }
           ]
         }
