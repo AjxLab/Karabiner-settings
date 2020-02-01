@@ -258,11 +258,188 @@
                         ]
                     },
                     {
-                        "description": "Hyphen to Bracket",
+                        "description": "マウスカーソルをキーボードから操作(htkn)",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "open_bracket",
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "y": -1536
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "x": -1536
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "y": 1536
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "x": 1536
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "vertical_wheel": -32
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "right_shift",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "vertical_wheel": 32
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "pointing_button": "button1"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ],
+                                        "optional": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "pointing_button": "button2"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Basic Costom",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -271,14 +448,14 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen"
+                                        "key_code": "left_control"
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
                                 "from": {
-                                    "key_code": "close_bracket",
+                                    "key_code": "delete_or_backspace",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -287,14 +464,231 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign"
+                                        "mouse_key": {
+                                            "horizontal_wheel": -32
+                                        }
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
                                 "from": {
-                                    "key_code": "hyphen",
+                                    "key_code": "international3",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "mouse_key": {
+                                            "horizontal_wheel": 32
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "international1",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "japanese_eisuu",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "japanese_kana",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "return_or_enter"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "return_or_enter",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_forward"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "My Dvorak Costom",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "period"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "i"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "t",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "comma"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "t",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "period"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "comma",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "t"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "period",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "r"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "quote",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -310,7 +704,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "equal_sign",
+                                    "key_code": "open_bracket",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -319,7 +713,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "close_bracket"
+                                        "key_code": "quote"
                                     }
                                 ],
                                 "type": "basic"
@@ -346,7 +740,7 @@
                                 "key_code": "backslash"
                             },
                             "to": {
-                                "key_code": "return_or_enter"
+                                "key_code": "delete_forward"
                             }
                         },
                         {
@@ -354,23 +748,7 @@
                                 "key_code": "caps_lock"
                             },
                             "to": {
-                                "key_code": "delete_or_backspace"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "delete_or_backspace"
-                            },
-                            "to": {
-                                "key_code": "backslash"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "fn"
-                            },
-                            "to": {
-                                "key_code": "a"
+                                "key_code": "left_control"
                             }
                         },
                         {
@@ -399,10 +777,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "left_gui"
+                                "key_code": "left_control"
                             },
                             "to": {
-                                "key_code": "left_option"
+                                "key_code": "caps_lock"
                             }
                         },
                         {
@@ -437,58 +815,116 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "backslash"
+                                "key_code": "left_control"
                             },
                             "to": {
-                                "key_code": "return_or_enter"
+                                "key_code": "tab"
                             }
                         },
+                        {
+                            "from": {
+                                "key_code": "tab"
+                            },
+                            "to": {
+                                "key_code": "grave_accent_and_tilde"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 1969,
+                        "vendor_id": 1118
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 9,
+                        "vendor_id": 11240
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 34304,
+                        "vendor_id": 1452
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 8453,
+                        "vendor_id": 16700
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 8,
+                        "vendor_id": 11240
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
                         {
                             "from": {
                                 "key_code": "caps_lock"
                             },
                             "to": {
-                                "key_code": "left_control"
+                                "key_code": "tab"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "delete_or_backspace"
+                                "key_code": "grave_accent_and_tilde"
                             },
                             "to": {
-                                "key_code": "backslash"
+                                "key_code": "1"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "international1"
+                                "key_code": "left_alt"
                             },
                             "to": {
-                                "key_code": "right_shift"
+                                "key_code": "left_command"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "international3"
+                                "key_code": "left_command"
                             },
                             "to": {
-                                "key_code": "backslash"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "japanese_eisuu"
-                            },
-                            "to": {
-                                "key_code": "delete_or_backspace"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "japanese_kana"
-                            },
-                            "to": {
-                                "key_code": "return_or_enter"
+                                "key_code": "left_option"
                             }
                         },
                         {
@@ -496,7 +932,31 @@
                                 "key_code": "left_control"
                             },
                             "to": {
-                                "key_code": "delete_or_backspace"
+                                "key_code": "caps_lock"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_alt"
+                            },
+                            "to": {
+                                "key_code": "right_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_command"
+                            },
+                            "to": {
+                                "key_code": "right_control"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "tab"
+                            },
+                            "to": {
+                                "key_code": "grave_accent_and_tilde"
                             }
                         }
                     ]
@@ -607,7 +1067,7 @@
             "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
-                "country_code": 0,
+                "country_code": 45,
                 "mouse_key_xy_scale": 100
             }
         }
