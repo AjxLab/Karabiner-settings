@@ -1,8 +1,7 @@
 Karabiner Settings
 ==================
 
-
-Karabiner Elementsの設定ファイル管理
+![](img/keymap.png)
 
 
 ## Requirements
@@ -12,5 +11,6 @@ Karabiner Elementsの設定ファイル管理
 
 ## Installation
 ```sh
+$ mkdir -p ~/.config
 $ git clone https://github.com/AjxLab/Karabiner-settings ~/.config/karabiner
 ```
