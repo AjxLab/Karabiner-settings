@@ -1,7 +1,7 @@
 {
     "global": {
-        "check_for_updates_on_startup": false,
-        "show_in_menu_bar": true,
+        "check_for_updates_on_startup": true,
+        "show_in_menu_bar": false,
         "show_profile_name_in_menu_bar": false
     },
     "profiles": [
@@ -1235,7 +1235,7 @@
                                 "key_code": "right_command"
                             },
                             "to": {
-                                "key_code": "right_control"
+                                "key_code": "fn"
                             }
                         },
                         {
