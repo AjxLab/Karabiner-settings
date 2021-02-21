@@ -1,8 +1,8 @@
 {
-  "title": "AMONG US",
+  "title": "Among Us",
   "rules": [
     {
-      "description": "AMONG USに最適化",
+      "description": "Among Usに最適化",
       "manipulators": [
         {
           "type": "basic",
@@ -65,9 +65,7 @@
           "from": {
             "key_code": "j",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
@@ -81,14 +79,40 @@
           "from": {
             "key_code": "l",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "r"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "japanese_kana",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "spacebar"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "japanese_eisuu",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
             }
           ]
         }
